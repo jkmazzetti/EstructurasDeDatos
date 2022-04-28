@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rascacielos>
+  <ciudades>
+    <continente nombre="Asia">
+      <pais nombre="China">
+        <ciudad>Shanghái</ciudad>
+        <ciudad>Guangzhou</ciudad>
+      </pais>
+      <pais nombre="Emiratos Árabes Unidos">
+        <ciudad>Dubái</ciudad>
+      </pais>
+      <pais nombre="Taiwan">
+        <ciudad>Taipéi</ciudad>
+      </pais>
+    </continente>
+    <continente nombre="América">
+      <pais nombre="Estados Unidos de América">
+        <ciudad>Nueva York</ciudad>
+        <ciudad>Chicago</ciudad>
+      </pais>
+    </continente>
+  </ciudades>
+
+  <edificios>
+    <edificio>
+      <nombre>Burj Khalifa</nombre>
+      <ciudad>Dubái</ciudad>
+      <datos>
+        <altura>828</altura>
+        <pisos>163</pisos>
+        <completado>2010</completado>
+      </datos>
+    </edificio>
+    <edificio>
+      <nombre>Shanghái Tower</nombre>
+      <ciudad>Shanghái</ciudad>
+      <datos>
+        <altura>632</altura>
+        <pisos>128</pisos>
+        <completado>2015</completado>
+      </datos>
+    </edificio>
+    <edificio>
+      <nombre>One World Trade Center</nombre>
+      <ciudad>Nueva York</ciudad>
+      <datos>
+        <altura>541</altura>
+        <pisos>104</pisos>
+        <completado>2014</completado>
+      </datos>
+    </edificio>
+    <edificio>
+      <nombre>CTF Finance Centre</nombre>
+      <ciudad>Guangzhou</ciudad>
+      <datos>
+        <altura>530</altura>
+        <pisos>111</pisos>
+        <completado>2016</completado>
+      </datos>
+    </edificio>
+    <edificio>
+      <nombre>Taipéi 101</nombre>
+      <ciudad>Taipéi</ciudad>
+      <datos>
+        <altura>509</altura>
+        <pisos>101</pisos>
+        <completado>2004</completado>
+      </datos>
+    </edificio>
+    <edificio>
+      <nombre>Shanghái World Financial Center</nombre>
+      <ciudad>Shanghái</ciudad>
+      <datos>
+        <altura>492</altura>
+        <pisos>101</pisos>
+        <completado>2018</completado>
+      </datos>
+    </edificio>
+    <edificio>
+      <nombre>Sears Towers</nombre>
+      <ciudad>Chicago</ciudad>
+      <datos>
+        <altura>442</altura>
+        <pisos>107</pisos>
+        <completado>1974</completado>
+      </datos>
+    </edificio>
+    <edificio>
+      <nombre>432 Park Avenue</nombre>
+      <ciudad>Nueva York</ciudad>
+      <datos>
+        <altura>426</altura>
+        <pisos>88</pisos>
+        <completado>2015</completado>
+      </datos>
+    </edificio>
+    <edificio>
+      <nombre>Trump Tower</nombre>
+      <ciudad>Chicago</ciudad>
+      <datos>
+        <altura>423</altura>
+        <pisos>98</pisos>
+        <completado>2009</completado>
+      </datos>
+    </edificio>
+  </edificios>
+</rascacielos>

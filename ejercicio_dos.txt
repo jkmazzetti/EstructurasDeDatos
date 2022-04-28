@@ -1,0 +1,3 @@
+//lanzamiento[@año=2018 and @mes>5]/@version
+//lanzamiento[@kernel=//kernel[@año=2017]/@id]/@distribucion
+//lanzamiento[@distribucion=//distribucion[derivada="ubuntu"]/@id]/@escritorio

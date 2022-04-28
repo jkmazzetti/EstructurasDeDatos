@@ -1,0 +1,19 @@
+2D
+
+1-//Departamento[Titulo/text()="Computer Science"]/Materia/Titulo
+
+
+titulo materia=//Materia/Titulo
+apellido=Profesor[Apellido/text()="Roberts"]
+Materia que de un profesor con determinador apellido:
+
+2-//Materia[//Profesor[Apellido/text()="Roberts"]]/Titulo
+
+correlativas de materias:
+//Materia/Correlativas
+codigos materias de roberts:
+//Materia[//Profesor[Apellido/text()="Roberts"]]/@Numero
+
+materias correlativas de las de roberts:
+
+3-//Materia[//Materia[//Profesor[Apellido/text()="Roberts"]]/@Numero=//Corre/text()]/@Numero

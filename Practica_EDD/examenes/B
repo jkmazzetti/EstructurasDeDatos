@@ -1,0 +1,28 @@
+1-Escribir un programa en python que dado el siguiente archivo .csv (con valores separados por coma) con datos de la evolución del tipo de cambio en dólares, que contiene tres columnas, fecha (con formato aaaa-mm-dd), tipo_cambio_bna_vendedor, y valido (true  si el dato está corroborado o false en caso contrario), genere un archivo en formato json, con nombre promedios.json,  con el siguiente formato: {"anio": "promedio": promedio_anual,"promedio_mensual": {"ene": promedio_enero, "feb": promedio_febrero, ..., "dic": promedio_diciembre}}corresponden con los promedios mensuales. Si el dato es inválido (campo válido = false) se debe considerar el valor del último dato válido inmediatamente anterior. Subir archivo .zip con la solución completa
+https://drive.google.com/file/d/1RX6p4irEVCiuX-mp42f-0Wbe2od2uK3R/view?usp=sharing
+
+2-Dado el siguiente archivo con datos de rascacielos y sus ubicaciones, escribir las siguientes expresiones XPath que devuelvan. 1) Altura de los edificios construidos hasta 2010. 2) Años en los que se completaron rascacielos de más de 500 metros y menos de 110 pisos 3) Nombre de todos los edificios que se encuentran en Asia
+https://drive.google.com/file/d/1xWVCOkJrgEAl4XowKN_Mtk19ah_9BwXx/view?usp=sharing
+
+3-Describir la técnica BlockStorage para comprimir un diccionario de términos. (a) Aplicarlos al caso:  Tamaño del bloque = 7, contenidos = []. (b) Si la palabra cardenal aparece en los documentos 100016, 100044, 100166 y 100560, comprimir su lista de apariciones.
+
+4-Escribir las siguientes expresiones regulares. 1) Que acepte cadenas donde a cada consonante le siga exactamente una vocal (por ejemplo debe aceptar aaacapo, y rechazar aaacaapoo). 2) Que valide fechas entre el 17 de octubre y el 31 de octubre de los años 1990 a 2020 inclusive con el formato dd/mm/aaaa. Ejemplo 17/10/1995, 31/10/2020
+
+2-1 //datos[completado<2010]/altura
+2-2 //datos[altura>500 and pisos<110]/completado
+2-3 //edificio[ciudad=//continente[@nombre="Asia"]/pais/ciudad]/nombre
+
+
+3-a
+9cardamomo6cardán6cardar8cardenal11cardenalato12cardenalicio9cardencha
+*
+10cardenillo7cárdeno8cardiaco7cardias8cárdigan8cardillo8cardinal
+*
+
+3-b
+100016 28 122 394
+
+100016=00000110 10001101 00110000
+28= 10011100
+122= 11111010
+394= 10000011 00001010

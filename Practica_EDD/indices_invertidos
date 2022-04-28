@@ -1,0 +1,24 @@
+1-
+
+Btree={"Hay":[doc1],"Sur":[doc1],"portón":[doc1],"gastado":[doc1],"Mata":[doc2],"luz":[doc2],"fuego":[doc2],
+"abandonado":[doc2],"primer":[doc3],"día":[doc3],"iba":[doc3],"matarte":[doc3],"miradas":[doc3],"paredes":[doc3],
+"bar":[doc3]
+}
+
+
+1Hay
+2 Hay-Sur
+3  Sur
+Hay Porton
+4  Sur
+Hay gastado-porton
+5  Sur-Mata
+Hay gastado porton
+6    Sur-Mata
+Hay gastado-luz porton
+7                                   gastado
+                               Sur           Mata
+                            Hay  Fuego    luz  porton
+...............
+..............
+.............. 

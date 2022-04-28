@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<musica>
+  <musicos>
+    <musico id="Charly">
+      <nombre>Charly Garcia</nombre>
+      <fechas nacimiento="1951"/>
+      <pais>Argentina</pais>
+    </musico>
+    <musico id="Pettinato">
+      <nombre>Roberto Pettinato</nombre>
+      <fechas nacimiento="1955" />
+      <pais>Ecuador</pais>
+    </musico>
+    <musico id="Prodan">
+      <nombre>Luca Prodan</nombre>
+      <fechas nacimiento="1953" muerte="1987" />
+      <pais>Italia</pais>
+    </musico>
+    <musico id="Mollo">
+      <nombre>Ricardo Jorge Mollo</nombre>
+      <fechas nacimiento="1957" />
+      <pais>Argentina</pais>
+    </musico>
+    <musico id="Arnedo">
+      <nombre>Diego Arnedo</nombre>
+      <fechas nacimiento="1954" />
+      <pais>Argentina</pais>
+    </musico>
+  </musicos>
+  <bandas>
+   <banda nombre="Divididos">
+       <fechas fundacion="1988"/>
+       <integrantes>
+       	   <integrante id="Mollo"/>
+       	   <integrante id="Arnedo"/>
+       </integrantes>
+   </banda>
+   <banda nombre="Sumo">
+       <fechas fundacion="1981" disolucion="1988"/>
+       <integrantes>
+       	   <integrante id="Prodan"/>
+       	   <integrante id="Pettinato"/>
+       	   <integrante id="Mollo"/>
+       </integrantes>
+   </banda>
+   </bandas>
+</musica>

@@ -1,0 +1,4 @@
+2
+a: //datos[completado<=2010]/altura
+b: //datos[altura>500 and pisos<110]/completado
+c: //edificio[ciudad/text()=//continente[@nombre="Asia"]/pais/ciudad/text()]/nombre

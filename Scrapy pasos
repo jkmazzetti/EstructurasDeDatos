@@ -1,0 +1,48 @@
+Scrapy 2.4.0 y Python 3.8
+
+Ejecutar en terminal:
+
+1 scrapy startproject nombredelproyecto
+2 cd nombredelproyecto
+3 scrapy genspider mispider www.ejemplo.com
+
+4 cambiar user agent desde settings.py
+elegir desde aca:
+https://developers.whatismybrowser.com/useragents/explore/software_name/googlebot/
+
+Para obtener data: 
+scrapy crawl mispider
+
+Escribir archivo
+scrapy crawl mispider -O nombre_archivo.csv
+scrapy crawl mispider -O nombre_archivo.json
+
+Ejemplo spider:
+
+class ImdbsSpider(scrapy.Spider):
+    name = 'imdbs'
+    allowed_domains = ['www.imdb.com']
+    start_urls = ["https://www.imdb.com/chart/top"]
+
+    def parse(self, response):
+        lista_peliculas= response.css(".titleColumn a::text").getall()
+        lista_a=response.css(".secondaryInfo::text").getall()
+        for i,pelicula in enumerate(lista_peliculas):
+            yield {
+                "titulo": pelicula,
+                "año":lista_a[i][1:-1]
+            }
+yield se encarga de procesar la informacion tal cual la solicitamos
+response.css obtiene todo el contenido, se le pasa el parametro del campo que se desea recuperar.
+
+
+
+Nota: Solo se puede ejecutar scrapy crawl si se está dentro del directorio del proyecto
+
+
+
+
+Para hacer scraping desde la terminal:
+scrapy shell url
+
+

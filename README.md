@@ -1,3 +1,3 @@
 # EstructurasDeDatos
 Ejercicios de cursada 2020
-Video demo: https://studio.youtube.com/video/-QG5mEl_yZA/edit
+Video demo: https://www.youtube.com/watch?v=-QG5mEl_yZA
